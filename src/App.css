@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fb;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #0a3d62, #3c6382);
+  color: white;
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* Input */
+.input-box {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Operators */
+.operator-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px;
+  padding: 10px;
+}
+
+.operator {
+  padding: 10px 18px;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.operator.active {
+  background: #0a3d62;
+  color: white;
+}
+
+/* Plan Card */
+.plan-card {
+  background: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.plan-price {
+  color: #0a3d62;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Button */
+.btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Payment Card */
+.payment-card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
